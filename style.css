@@ -1,0 +1,218 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 100%;
+      font-family: 'Roboto', system-ui, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #100f0f;
+    }
+
+    header {
+      /* width: 100%; */
+      min-height: 5rem;
+      margin: 0 auto;
+      padding: 1rem;
+    text-align: center;
+    }
+
+    /* Hero */
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)),
+                  url('./assets/1.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #333;
+      border-radius: 16px;
+    }
+
+    .hero h1 {
+      font-size: 4.2rem;
+      margin-bottom: 1.2rem;
+      font-weight: 700;
+      text-shadow: 0 4px 12px rgba(0,0,0,0.6);
+    }
+
+    .hero .date {
+      font-size: 2.4rem;
+      font-weight: 500;
+      opacity: 0.95;
+    }
+
+    /* Section styling */
+    section {
+      padding: 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+      border: 1px solid #333;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.8rem;
+      margin-bottom: 2.5rem;
+      color: #222;
+    }
+.menu {
+  height: 2rem;
+
+}
+    /* How to Order */
+    .steps {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .step {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+    }
+
+    .step-number {
+      display: inline-block;
+      background: #e63946;
+      color: white;
+      width: 48px;
+      height: 48px;
+      line-height: 48px;
+      border-radius: 50%;
+      text-align: center;
+      font-weight: bold;
+      margin-right: 1rem;
+      font-size: 1.4rem;
+    }
+
+    .phone {
+      color: #e63946;
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+
+    .options-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      justify-content: center;
+      margin: 1.8rem 0;
+    }
+
+    .options-gallery img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+      border: 4px solid white;
+    }
+
+    /* Pickup Instructions */
+    .pickup-info {
+      background: #fff;
+      border-radius: 16px;
+      padding: 3rem;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .address {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #2c3e50;
+      margin: 1.5rem 0;
+    }
+
+    /* Menu Cards */
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2.5rem;
+      margin-top: 3rem;
+    }
+
+    .card {
+      background: rgba(17, 164, 193, 0.479);
+      border-radius: 16px;
+      overflow: hidden;
+      height: auto;
+      margin: 5px;
+      padding: 5px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      transition: transform 0.25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-12px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .card-content {
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .card h3 {
+      font-size: 1.6rem;
+      margin-bottom: 0.8rem;
+      color: #222;
+    }
+
+    .card .price {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #e63946;
+      margin: 0.6rem 0 1rem;
+    }
+
+    .card p {
+      color: #555;
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 2.4rem;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #e63946;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 3.2rem; }
+      .hero .date { font-size: 2rem; }
+      h2 { font-size: 2.4rem; }
+    }
