@@ -8,6 +8,7 @@
  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="wrapper">
 <header>
   <img src="https://res.cloudinary.com/drzxavcw1/image/upload/v1768803086/b2wicon_m5qv1e.png" alt="">
   <!-- <h1>
@@ -17,7 +18,8 @@
 </header>
   <!-- HERO -->
   <section class="hero">
-    <img class='gfg' src='https://res.cloudinary.com/drzxavcw1/image/upload/v1768803087/hero-bg_kduu6y.png' alt="">
+    <img src="https://res.cloudinary.com/drzxavcw1/image/upload/v1769843080/hero_1_gadat8.jpg" alt="" class="gfg">
+    <!-- <img class='gfg' src='https://res.cloudinary.com/drzxavcw1/image/upload/v1768803087/hero-bg_kduu6y.png' alt=""> -->
    <div class="words">
      <h1>Opening Soon</h1>
     <div class="date">February, 2026</div>
@@ -26,9 +28,20 @@
 
   <!-- MENU CARDS (example - replace with real items) -->
   <section class='menu-section'>
-    <h2 class='menu'>Menu</h2>
+    <div class="title">
+      <h2 class='menu'>Menu</h2>
+    </div>
     <div class="menu-grid">
       <div class="card">
+        <img src="https://res.cloudinary.com/drzxavcw1/image/upload/v1769265563/1_t1vynt.jpg" alt="Margherita">
+        <div class="card-content">
+          <h3>1. Pepperoni w/ Cheese</h3>
+          <div class="price">$6.50</div>
+          <p>Ball stuffed w/ pepperoni and mozzarella cheese</p>
+        </div>
+      </div>
+
+          <div class="card">
         <img src="https://res.cloudinary.com/drzxavcw1/image/upload/v1769265563/1_t1vynt.jpg" alt="Margherita">
         <div class="card-content">
           <h3>1. Pepperoni w/ Cheese</h3>
@@ -55,10 +68,13 @@
         </div>
       </div>
     </div>
+
   </section>
   <!-- HOW TO ORDER -->
-  <section>
+  <section class='order-section'>
+    <div class="title">
     <h2>How to Order</h2>
+    </div>
     <div class="steps">
       <div class="step">
         <p><span class="step-number">1</span> Call ahead <a href="tel:7373464644" class="phone">737-346-4644</a><br>
@@ -75,12 +91,12 @@
   </section>
 
   <!-- PICKUP INSTRUCTIONS -->
-  <section>
+  <section class='pickup-section'>
     <div class="pickup-info">
       <h2>Pickup Instructions</h2>
       <p class="step"><span class="step-number">1</span> Pickup location:</p>
       <p class="address">11901 Hobby Horse Ct<br>Austin, TX<br>(Parking Lot)</p>
-      <p>Payment accepted: <strong>Cash</strong> or <strong>Card</strong></p>
+      <p class='only-pay'>Payment accepted: <strong>Cash</strong> or <strong>Card</strong></p>
     </div>
   </section>
 
@@ -94,6 +110,6 @@
     </div>
     <p>Launching January 26th, 2026 • Austin, Texas</p>
   </footer>
-
+</div>
 </body>
 </html>
