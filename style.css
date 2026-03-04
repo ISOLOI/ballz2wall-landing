@@ -59,20 +59,21 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      background: none;
+      /* width: 100%; */
     }
 
     body {
-      width: 100vw;
       height: 100%;
       font-family: 'Roboto', system-ui, sans-serif;
       line-height: 1.6;
-      color: var(--primary-400);
+      color: var(--primary-100);
     }
     .wrapper {
-      max-width: 1200px;
+      max-width: 100%;
       margin: 0 auto;
       padding: 0.5rem;
-      background: rgb(6, 21, 36);
+      background: var(--neutral-900);
     }
 
     header {
@@ -84,11 +85,12 @@
       /* margin: 0 auto; */
       padding: 1rem;
     text-align: center;
+color: #7FBFFA;
 
   /* background: var(--primary-100); */
   }
 header img {
-  width: 15%;
+  width: 10rem;
   /* height: 2.5rem; */
   margin-right: auto;
 padding: 0.5rem;
@@ -98,18 +100,23 @@ padding: 0.5rem;
       color: var(--accent);
 
   } */
+
+  header p {
+    margin: 1rem;
+  }
   header span {
     font-size: 1.5rem;
-    color: var(--accent-900);
+    color: #7FBFFA;
     font-style: italic;
-    margin: auto 0;
+/* vertical-align: middle; */
+    /* margin: auto 0; */
     padding: 0.5rem;
-    /* text-shadow: 5px 1px 6px rgba(0,0,0,0.6); */
+    text-shadow: 1px 1px 1px var(--neutral-100);
   }
 
     /* Hero */
     .hero {
-width: 100%;
+/* width: 100%;  */
 max-height: 20rem;
 display: flex;
 justify-content: center;
@@ -117,7 +124,6 @@ align-items: center;
 /* position: relative; */
 overflow: hidden;
 border: none;
-    border-radius: 5px;
 
 
 }
@@ -125,6 +131,8 @@ border: none;
   /* filter: blur(4px); */
   /* background-color: #1d5918b2; */
   width: 100%;
+  filter: blur(6px);
+  background-;
   /* background-position: center center/cover; */
   /* margin: 1rem; */
 }
@@ -136,7 +144,8 @@ border: none;
             /* top: 50px; */
             text-align: center;
             /* align-items: center; */
-            color: white;
+            color: var(--neutral-900);
+            text-shadow: 4px 3px 1px #222626;
 }
        .words h1 {
             font-size: 3rem;
@@ -146,6 +155,7 @@ border: none;
 
         }
 .date {
+  color: var(--neutral-500);
            border: none;
             outline: 0;
             font-size: 2.5rem;
@@ -234,22 +244,32 @@ padding: 5px;
 
     /* How to Order */
 
-
+.order-section {
+  color: #000;
+}
     .order-section .title {
       width: 100%;
+
+
+    }
+    .step h2 {
       text-align: center;
-      /* margin-bottom: 2.5rem; */
+      margin: 2rem;
+     text-align: center;
+     color: var(--accent);
     }
     .steps {
       display: grid;
       grid-template-columns: 1fr;
       gap: 2.5rem;
-      max-width: 900px;
+      /* max-width: 900px; */
       margin: 0 auto;
+
     }
 
     .step {
       background: var(--text);
+      font-size: larger;
       padding: 2.5rem;
       border-radius: 12px;
       box-shadow: 0 6px 24px rgba(0,0,0,0.08);
@@ -268,7 +288,7 @@ padding: 5px;
       margin-right: 1rem;
       font-size: 1.4rem;
     }
-
+/*
     .phone {
       color: var(--primary-50);
       font-weight: bold;
@@ -290,9 +310,18 @@ padding: 5px;
       border-radius: 10px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.12);
       border: 4px solid white;
-    }
+    } */
 
     /* Pickup Instructions */
+
+    .step h2  {
+      color: var(--accent);
+    }
+
+    .step {
+      color: #000;
+    }
+
     .pickup-info {
       background: var(--text);
       border-radius: 16px;
@@ -301,6 +330,9 @@ padding: 5px;
       text-align: center;
       /* max-width: 800px; */
       margin: 0 auto;
+    }
+    .step-number span {
+
     }
 
     .address {
