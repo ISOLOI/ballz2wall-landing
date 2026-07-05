@@ -1,0 +1,58 @@
+{
+  "name": "Ballz 2 The Wall",
+  "shortName": "Ballz2TheWall",
+  "established": "2026",
+  "phone": "512-346-4644",
+  "email": "contact@ballz2thewall.com",
+  "address": {
+    "full": "Gracy Farms Road/Hobby Horse Court",
+    "short": "N. ATX",
+    "crossStreets": "between Gracy Farms Road/Hobby Horse Court"
+  },
+  "coordinates": {
+    "lat": 30.40509816033502,
+    "lng": -97.71227120055691
+  },
+  "openingHours": {
+    "weekday": "Mon – Fri: 4:00 PM – 6:00 PM",
+    "weekend": "Sat – Sun: 4:00 PM – 6:00 PM",
+    "holiday": null
+  },
+  "tagline": "Hot Pepperoni Balls Made Fresh Daily.",
+  "menu": [
+    {
+      "category": "Menu",
+      "items": [
+        { "name": "Classic Ball", "description": "Loaded with Pep and mozerella cheese", "badge": null },
+        { "name": "No Cheese", "description": "Loaded with only pepperoni", "badge": null },
+        { "name": "Meal Deal", "description": "2 Ballz & Drink", "badge": null }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/gallery/2.jpg",
+      "alt": "hot pepperoni balls"
+    },
+    {
+      "src": "/images/gallery/ball-split.jpg",
+      "alt": "hot pepperoni balls"
+    },
+    {
+      "src": "/images/gallery/hero-bg.png",
+      "alt": "hot pepperoni balls"
+    }
+  ],
+  "notices": [
+    "PRE-ORDER ONLY",
+    "CHECKOUT ONLY OR IN PERSON"
+  ],
+  "social": {
+    "instagram": "https://instagram.com/ballz2wall"
+  },
+  "seo": {
+    "metaTitle": "Ballz 2 The Wall | Neighborhood Food in North Austin, TX",
+    "metaDescription": "It's like pizza... just BETTER. Hot Pepperoni balls made with fresh dough daily."
+  }
+}
+

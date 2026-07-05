@@ -1,0 +1,233 @@
+
+     <section class="menu-section">
+        <div class="title">
+          <h2 class="menu">Menu</h2>
+        </div>
+        <div class="menu-grid">
+          <div class="card">
+            <img
+              src="https://res.cloudinary.com/drzxavcw1/image/upload/v1769265563/1_t1vynt.jpg"
+              alt="Margherita"
+            />
+            <div class="card-content">
+              <h3>1. Pepperoni w/ Cheese</h3>
+              <div class="price">$6.50</div>
+              <p>Ball stuffed w/ pepperoni and mozzarella cheese</p>
+            </div>
+               <div class="product">
+        <img src="https://i.imgur.com/EHyR2nP.png" alt="The cover of Stubborn Attachments" />
+        <div class="description">
+          <h3>Stubborn Attachments</h3>
+          <h5>$20.00</h5>
+        </div>
+      </div>
+      <form action="/create-checkout-session" method="POST">
+        <button type="submit" id="checkout-button">Checkout</button>
+      </form>
+          </div>
+
+          <div class="card">
+            <img
+              src="https://res.cloudinary.com/drzxavcw1/image/upload/v1769265563/1_t1vynt.jpg"
+              alt="Margherita"
+            />
+            <div class="card-content">
+              <h3>2. Pepperoni Only</h3>
+              <div class="price">$6.50</div>
+              <p>Ball stuffed w/ pepperoni</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="https://res.cloudinary.com/drzxavcw1/image/upload/v1769265563/1_t1vynt.jpg"
+              alt="Pepperoni"
+            />
+            <div class="card-content">
+              <h3>3. Cheese only</h3>
+              <div class="price">$6.50</div>
+              <p>Ball stuffed w/ mozzarella cheese</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="https://res.cloudinary.com/drzxavcw1/image/upload/v1769265379/2_lti6ht.jpg"
+              alt="BBQ Chicken"
+            />
+            <div class="card-content">
+              <h3>4. Meal w/ Soda</h3>
+              <div class="price">$12.99</div>
+              <p>2 ballz and a soda.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!--
+
+      <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ballz2TheWall | It's like pizza, just better</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Pacifico&family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="final.css" />
+  </head>
+  <body>
+
+    <div id="confirmation-overlay">
+        <h1 style="text-shadow: none; color: var(--diner-red);">ORDER SUCCESSFUL!</h1>
+        <p style="font-family: 'Quicksand'; font-size: 1.2rem;">Check your email for your receipt and pickup details.</p>
+        <button class="success-btn" onclick="location.reload()">Back to Menu</button>
+    </div>
+    <div class="container">
+      <header>
+        <h1>Ballz2TheWall</h1>
+        <div class="slogan">It's like pizza, just better</div>
+      </header>
+
+      <div class="steps">
+        <h2>How to Order</h2>
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Select Your Pickup Time</h3>
+            <div class="pickup-grid">
+              <input type="date" id="pickup-date" required />
+              <input type="time" id="pickup-time" required />
+            </div>
+          </div>
+        </div>
+
+         <div class="step">
+      <div class="step-number">2</div>
+      <div class="step-content">
+        <h3>Choose Your Pepperoni Balls</h3>
+        <p>Pick your favorite style and how many you want. Go big — they're addictive!</p>
+
+      </div>
+    </div>
+
+  <div class="step">
+      <div class="step-number">3</div>
+      <div class="step-content">
+        <h3>Enter Your Vehicle Info</h3>
+      <textarea name="vehicle-info" id="vehicle-info" placeholder="Type your make & model (e.g., 'Tesla Model Y' or 'Honda Civic')"></textarea>
+      </div>
+    </div>
+   <div class="step">
+      <div class="step-number">4</div>
+      <div class="step-content">
+        <h3>Checkout & Get Confirmed</h3>
+        <p>Review, pay, and you'll get your order number + exact pickup time.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">5</div>
+      <div class="step-content">
+        <h3>Arrive & Enjoy!</h3>
+        <p>Head to our parking lot at the selected time. Stay in your car — we'll bring the hot goodness right to you.</p>
+        <div class="address-highlight">
+          📍 11901 Hobby Horse Ct, Austin, TX
+        </div>
+      </div>
+    </div>
+
+      </div>
+
+
+      <div class="cards">
+        <div class="card">
+          <img class="item" src="./assets/ball-split.jpg" alt="The Classic" />
+          <h2>The Classic</h2>
+          <p>Pepperoni w/ Mozzarella</p>
+          <span class="price">$6.50</span>
+          <div class="button-wrapper">
+            <form
+              action="https://www.paypal.com/ncp/payment/RUD3N8UE6RUG8"
+              method="post"
+              target="_blank"
+            >
+              <input class="pp-RUD3N8UE6RUG8" type="submit" value="Buy Now" />
+              <img class='pay-options'
+              src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg
+              alt="cards" />
+              <section>
+                Powered by
+                <img
+                  src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg"
+                  alt="paypal"
+                />
+              </section>
+            </form>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="item" src="./assets/ball-split.jpg" alt="The Classic" />
+          <h2>The Classic</h2>
+          <p>Pepperoni w/ Mozzarella</p>
+          <span class="price">$6.50</span>
+          <div class="button-wrapper">
+            <form
+              action="https://www.paypal.com/ncp/payment/RUD3N8UE6RUG8"
+              method="post"
+              target="_blank"
+            >
+              <input class="pp-RUD3N8UE6RUG8" type="submit" value="Buy Now" />
+              <img class='pay-options'
+              src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg
+              alt="cards" />
+              <section>
+                Powered by
+                <img
+                  src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg"
+                  alt="paypal"
+                />
+              </section>
+            </form>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="item" src="./assets/ball-split.jpg" alt="The Classic" />
+          <h2>The Classic</h2>
+          <p>Pepperoni w/ Mozzarella</p>
+          <span class="price">$6.50</span>
+          <div class="button-wrapper">
+            <form
+              action="https://www.paypal.com/ncp/payment/RUD3N8UE6RUG8"
+              method="post"
+              target="_blank"
+            >
+              <input class="pp-RUD3N8UE6RUG8" type="submit" value="Buy Now" />
+              <img class='pay-options'
+              src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg
+              alt="cards" />
+              <section>
+                Powered by
+                <img
+                  src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg"
+                  alt="paypal"
+                />
+              </section>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+ -->
